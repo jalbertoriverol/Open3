@@ -1,0 +1,36 @@
+/* CSS Global */
+
+/* Incluye variables root y CSS de elementos */
+:root {
+  --color-texto: #414241;
+  --color-gradienteTarjeta-inicio: #f8f4f4;
+  --color-gradienteTarjeta-fin: #ffffff;
+  --color-fondoTarjeta: rgb(255, 255, 255);
+
+  --azul: rgb(134, 159, 234);
+  --azul-claro: rgb(17, 22, 58);
+  --azul-obscuro: rgb(234, 234, 234);
+
+  --fuente-oficial: "IBM Plex Sans", sans-serif;
+  --fuente-delgada: 300;
+  --fuente-normal: 500;
+  --fuente-gruesa: 700;
+
+  --gradiente-tarjeta: linear-gradient(
+    to right,
+    rgb(134, 159, 234),
+    rgb(17, 22, 58)
+  );
+
+  --efecto-resalto: translateY(-2px);
+}
+
+* {
+  font-family: var(--fuente-oficial);
+}
+
+body {
+  color: var(--color-texto);
+  margin: 0;
+  padding: 0;
+}
