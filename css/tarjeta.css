@@ -112,10 +112,7 @@
 /* ::before - Inserta y estiliza contenido antes del contenido de un elemento */
 /* ::after - Inserta y estiliza contenido antes del contenido de un elemento */
 
-.tarjeta .derecha span::before {
-  content: " ";
-  font-size: 1.2em;
-}
+
 
 .tarjeta .derecha span:hover {
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.75);
